@@ -1,4 +1,4 @@
-import { pokemon } from 'data/pokemon.js'
+import { pokemon } from '../data/pokemon.js'
 
 const mainContainer = document.querySelector('.container')
 

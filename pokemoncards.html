@@ -11,40 +11,55 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/pokemon.css"/> 
 </head>
     <body>
-<nav>
-   <ul id="navbar">
-    <li><a href="#welcome-section">About me</a></li>
-    <li><a href="#projects">My projects</a></li>
-    <li><a href="#swpeople.html">Star Wars Cards</a></li>
-    <li><a href="pokemoncards.html">Pokemon Cards</a></li>
-    <li><a href="#contact">Contact me</a></li>
-  </ul>  
-</nav>
-<main> 
+        <nav>
+            <ul id="navbar">
+                <li><a href="#welcome-section">About me</a></li>
+                <li><a href="#projects">My projects</a></li>
+                <li><a href="#swpeople.html">Star Wars Cards</a></li>
+                <li><a href="pokemoncards.html">Pokemon Cards</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>  
+        </nav>
+    <main> 
     
-    /<!--<div class="pokemonimg"><img id="Pokemon-img" src=""></div>-->
-    <p class="welcome_text">Welcome to the Pokemon Cards! Click on a card to view the character's information</p>
-    <p class="welcome_text">You can also add a card by clicking the button at the bottom of the screen</p>
+        /<!--<div class="pokemonimg"><img id="Pokemon-img" src=""></div>-->
+        <p class="welcome_text">Welcome to the Pokemon Cards! Click on a card to view the character's information.</p>
+        <p class="welcome_text">You can also add a card by clicking the button at the bottom of the screen</p>
+      
+        <div id="card-container">
+        
+        </div>
+        <div class="container">
+        
+        </div>
     
-    
-    
-<main>  
-    <div id="card-container">
-    </div>
-    
-    <button id="create-card-button">Make New Card</button>
-   
+        <button id="create-card-button">Make New Card</button>
+        <div class="scene">
+        <div class="card">
+        <div class="card__face card__face--front">front</div>
+        <div class="card__face card__face--back">back</div>
+            
+        <div class="buttonContainer">
+            <button id="fetchPokemon">Fetch a specific Pokemon</button>
+            <button id="alimon">Create a new Pokemon</button>
+        </div>  
+            
+            
+            
+            <!--<button id="fetchPokemon" >Fetch a specific Pokemon</button>
+                <button id="alimon" >Create a new Alimon</button>
+                    <div class="button is-primary">
+        <p>Choose how to filter your list of Pokemon:</p>
+            <input type="checkbox" id="poison" name="poison">
+            <label for="poison">Poison</label>-->
 
-</main>
-    <div class="scene">
-    <div class="card">
-    <div class="card__face card__face--front">front</div>
-    <div class="card__face card__face--back">back</div>
+            
+             
+            
   </div>
 </div>
-<p>Click card to flip.</p>
-    
-</main>   
-    <script type="module" type="text/javascript" src="/data/pokecards.js"></script>
+        
+    </main>   
+    <script type="module" type="text/javascript" src="../data/pokecards.js"></script>
 </body>
 </html>
