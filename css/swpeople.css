@@ -1,0 +1,87 @@
+/* --- NAV --- */
+
+nav ul {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  background-color: #e0ebe8;
+}
+nav ul li {
+  display: inline-block;
+  margin: 55px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+nav ul li a {
+  color: #008080;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: black;
+}
+
+/* --- MAIN --- */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.box {
+    margin: 4px;
+    text-align: center;
+}
+hr{
+    display: block;
+    border-style: inset;
+    border-width: 5px;
+}
+img {
+    width: 250px;
+}
+
+
+div.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+div.notification {
+    text-align: center;
+    font-size: 1.5rem;
+    border: solid 5px rgb(180, 24, 24);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+h1 {
+    margin: 40px;
+    font-size: 5vw;
+    font-style: oblique;
+    font-weight: bold;
+}
+.starwarsimg {
+    display: flex;
+    justify-content: center;
+}
+p.welcome_text {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#create_card_button {
+    display: flex;
+    justify-content: center;
+}
+button {
+    width: 300px;
+}
