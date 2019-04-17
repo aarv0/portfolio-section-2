@@ -61,7 +61,7 @@ function createPokeCard(pokeData) {
   card.appendChild(cardBack(pokeData))
 
   card.addEventListener('click', function() {
-    card.classList.toggle('is-flipped')
+    card.classList.toggle('is-flipped');
   })
 
   scene.appendChild(card)
