@@ -70,7 +70,11 @@ nav ul li a:hover {
 .header {
   padding: 160px 0 110px;
 }
-
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 footer {
   padding: 10px;
   background: #e0ebe8;

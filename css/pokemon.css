@@ -86,6 +86,7 @@ img {
     padding: 4px;
     width: 200px;
     height: 200px;
+    position: relative;
 }
 
 .backImage {
