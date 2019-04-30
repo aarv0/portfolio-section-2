@@ -75,6 +75,9 @@ nav ul li a:hover {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.keepopen {
+    clear: both;
+}
 footer {
   padding: 10px;
   background: #e0ebe8;
