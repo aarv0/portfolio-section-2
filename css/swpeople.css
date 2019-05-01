@@ -28,12 +28,21 @@ main {
     align-items: center;
     padding-top: 50px;
 }
-.container {
+
+div.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 200px;
+}
+/*.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 100px;
+    padding-top: 200px;
 }
+*/
 .box {
     margin: 4px;
     text-align: center;
@@ -47,13 +56,6 @@ img {
     width: 250px;
 }
 
-
-div.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;  
-}
 div.notification {
     text-align: center;
     font-size: 1.5rem;

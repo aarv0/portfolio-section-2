@@ -26,14 +26,17 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 150px;
+    font-size: 14pt;
 }
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
+.welcome_text {
+    text-align: center;
+}
 .scene {
   width: 220px;
   height: 240px;
