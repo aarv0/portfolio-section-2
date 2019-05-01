@@ -5,7 +5,9 @@ html, body{
 }
 
 /* --- NAV --- */
-
+nav {
+    z-index: 500;
+}
 nav ul {
   text-align: right;
   position: fixed;
