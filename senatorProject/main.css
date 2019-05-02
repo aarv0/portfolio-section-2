@@ -48,6 +48,10 @@ nav ul li a:hover {
 body div .container {
     background-color: white;
 }
+.container {
+    padding-top: 150px;
+}
+
 
 .work {
   padding-top: 60px;
