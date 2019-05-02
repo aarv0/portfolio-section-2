@@ -24,18 +24,18 @@ const allHomeWorlds = people.map(person => {
     }
 })
 
-//console.log(allHomeWorlds)
+console.log(allHomeWorlds)
 
 const mainContainer = document.createElement('div')
 mainContainer.className = 'container'
 
 allHomeWorlds.forEach((person) => {
     let personElement = document.createElement('div')
-    let planetElement = document.createElement('h1') //('p')
+    let planetElement = document.createElement('p') 
     let imageElement = document.createElement('img')
     
 
-    personElement.className = 'box' //'notification'
+    personElement.className = 'notification'
     personElement.textContent = person.name
     planetElement.textContent = person.home
     imageElement.src = person.imagePath
