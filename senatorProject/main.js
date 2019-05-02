@@ -13,7 +13,7 @@ console.log(democrats, republicans)
 
 // map example 
 
-const simpleRep = representatives.map(rep => {
+const simpleReps = representatives.map(rep => {
   return {
     name: `${rep.first_name} ${rep.last_name}`,
     facebook: rep.facebook_account,
@@ -61,7 +61,6 @@ const repWithPics = representatives.map(rep => {
 })
 
 console.log(senWithPics)
-
   let pictureDiv = document.querySelector('.container')
 
   senWithPics.forEach(senator => {
