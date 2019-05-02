@@ -67,7 +67,7 @@ img {
 div.notification {
     text-align: center;
     font-size: 1.5rem;
-    border: solid 5px rgb(180, 24, 24);
+    border: solid 5px rgb(201, 27, 27);
     margin: 10px;
     display: flex;
     flex-direction: column;
