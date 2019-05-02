@@ -11,9 +11,9 @@ const republicans = representatives.filter(senator => senator.party === 'R')
 
 console.log(democrats, republicans)
 
-// map example - simplify the object returned from the map function by just creating two properties for each one
+// map example 
 
-const simpleReps = representatives.map(rep => {
+const simpleRep = representatives.map(rep => {
   return {
     name: `${rep.first_name} ${rep.last_name}`,
     facebook: rep.facebook_account,
@@ -36,7 +36,7 @@ const allMissedVotes = representatives.reduce((acc, rep) => {
   return acc + rep.missed_votes
 }, 0)
 
-// should provide some nice UI to show these results instead of just printing to the console
+
 console.log(testResults, allVotes, allMissedVotes)
 
 const senWithPics = senators.map(senator => {
@@ -44,7 +44,24 @@ const senWithPics = senators.map(senator => {
   return senator
 })
 
-// now set up some UI elements to display the senator pictures
+const repWithPics = representatives.map(rep => {
+    rep.imgURL = `https://www.congress.gov/img/member/114_rp_${rep.state.toLowerCase()}_${rep.district}_${rep.last_name.toLowerCase()}_${rep.first_name.toLowerCase()}_200.jpg`
+
+    fetch(rep.imgURL, {
+        mode: "no-cors", // no-cors, cors, *same-origin
+    })
+    .then(function(response) {
+        return response.json()
+    })
+    .then(function(myJson) {
+        console.log(JSON.stringify(myJson))
+    })
+    console.log()
+    return rep
+})
+
+console.log(senWithPics)
+
   let pictureDiv = document.querySelector('.container')
 
   senWithPics.forEach(senator => {
