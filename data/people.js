@@ -1,4 +1,8 @@
+
+//* Use of Import and Export statements
+//* Using Arrays to store and manipulate collections of data
 export const people = [
+//* Use of Objects with key-value pairs
     {
         "name": "Luke Skywalker",
         "height": "172",

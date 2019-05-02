@@ -1,3 +1,4 @@
+//* Use of Import and Export statements
 import { people } from '../data/people.js'
 import { planets } from '../data/planets.js'
 
