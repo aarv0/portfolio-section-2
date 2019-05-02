@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/pokemon.css"/> 
 </head>
     
-    <!------------ NAV ------------>
+<!------------ NAV ------------>
     <body>
         <nav>
             <ul id="navbar">
@@ -26,21 +26,30 @@
         </nav>
     
         
-        <!------------ MAIN ------------>
+<!------------ MAIN ------------>
     <main> 
     
         <!--<div class="pokemonimg"><img id="Pokemon-img" src=""></div>-->
         <p class="welcome_text">Welcome to the Pokemon Cards!<br/> Click on a card to view the character's information.</p>
         <p class="welcome_text">You can also add a card by clicking the button at the bottom of the screen</p>
       
-        <div id="card-container">
+    <div id="card-container">
         
-        </div>
-        <div class="container">
+    </div>
+<!--Javascript in container----------------------------->
+    <div class="container">
         
-        </div>
-    
-        <button id="create-card-button">Make New Card</button>
+    </div>
+ <!--Buttons at bottom of the page------------------------------->   
+    <!--<button id="create-card-button">Make New Card</button>-->
+        
+        
+    <button id="fetchPokemon" >Fetch a specific Pokemon</button>
+    <button id="alimon" >Create a new Pokemon</button>
+    <div class="button is-primary">
+        <p>Choose how to filter your list of Pokemon:</p>
+    <input type="checkbox" id="poison" name="poison">
+    <label for="poison">Poison</label>
         
         <!--<div class="scene"> 
         <div class="card">
@@ -51,18 +60,7 @@
             <button id="fetchPokemon">Fetch a specific Pokemon</button>
             <button id="alimon">Create a new Pokemon</button>
         </div>-->
-            
-            
-            
-            <button id="fetchPokemon" >Fetch a specific Pokemon</button>
-                <button id="alimon" >Create a new Alimon</button>
-                    <div class="button is-primary">
-        <p>Choose how to filter your list of Pokemon:</p>
-            <input type="checkbox" id="poison" name="poison">
-            <label for="poison">Poison</label>
-
-            
-             
+      
             
   </div>
 

@@ -192,8 +192,6 @@ selectPokemonButton.addEventListener('click', function() {
     fetchSinglePokemon(pokemonID)
 })
 
-
-//* Good use of conditional logic and value comparison
 poketypeButton.addEventListener('click', function() {
     const poisonTypes = allFetchedPokemon.filter(pokemon => pokemon.types[0].type.name === "poison")
 
