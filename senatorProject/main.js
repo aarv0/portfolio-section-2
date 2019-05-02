@@ -9,9 +9,9 @@ const democrats = representatives.filter(senator => {
 
 const republicans = representatives.filter(senator => senator.party === 'R')
 
-console.log(democrats, republicans)
+//console.log(democrats, republicans)
 
-// map example - simplify the object returned from the map function by just creating two properties for each one
+// map example 
 
 const simpleReps = representatives.map(rep => {
   return {
@@ -37,7 +37,7 @@ const allMissedVotes = representatives.reduce((acc, rep) => {
 }, 0)
 
 
-console.log(testResults, allVotes, allMissedVotes)
+//console.log(testResults, allVotes, allMissedVotes)
 
 const senWithPics = senators.map(senator => {
   senator.imgURL = `https://www.congress.gov/img/member/${senator.id.toLowerCase()}.jpg`
